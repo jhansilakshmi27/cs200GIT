@@ -5,6 +5,12 @@
         </title>
     </head>
     <body>
+    
+    <div style="background-color:dfc5fe; height:100; align:top">
+        
+        <h1 style="font-family:ways; text-align:center; color:Black; font-size:70; ">HealthyMe</h1>
+        
+        </div>
         
         <br>
         
