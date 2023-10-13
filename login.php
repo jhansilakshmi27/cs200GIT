@@ -14,6 +14,8 @@
 	<b>E-mail : </b><input  name="email"/><br><br>
 <b>Password : </b><input type="password" name="password"/><br><br>
 <input  type="submit" name="submit" value="submit"> <br><br><br>
+
+  <p> If you are a new user, you can <a href="signin.php">Sign in</a>
   
         </body>
         </html>
