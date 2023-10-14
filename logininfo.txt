@@ -1,0 +1,6 @@
+jhansi@iitbhilai.ac.in,3705,jhansi,female,19,Blood Pressure,Allergies
+vaideekaa@iitbhilai.ac.in,1234,ved,female,18,Depression,Allergies
+hbsdf,hedscbsdh,cbsdbc,others,6,Blood pressure
+,,,others,,vaideekaa@iitbhilai.ac.in,1234,ved,female,20,Depression,Allergies
+gaur123@gaur.com,1234,shivangi,others,18,Thyroid,Depression,Allergies
+gaur@gaur.com,asdf,qwerty,female,13,Diabetes,Thyroid,Asthma
