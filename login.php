@@ -6,9 +6,9 @@
     </head>
     <body>
     
-    <div style="background-color:dfc5fe; height:100; align:top">
+    <div style="background-color:00674e; height:100; align:top">
         
-        <h1 style="font-family:ways; text-align:center; color:Black; font-size:70; ">HealthyMe</h1>
+        <h1 style="font-family:ways; text-align:center; color:white; font-size:70; ">Healthify</h1>
         
         </div>
         
