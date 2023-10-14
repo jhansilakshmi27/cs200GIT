@@ -12,7 +12,44 @@
         </div>
         <br>
         
-
+ <?php
+	if(isset($_POST['submit']))
+	{
+		$fp=fopen("logininfo.txt", "a+");
+	
+	
+		if(isset($_POST['email']))
+		{
+			$email=$_POST['email'];
+			fwrite($fp, "$email," );
+		}
+		
+		
+		if(isset($_POST['password']))
+		{
+			$add=$_POST['password'];
+			fwrite($fp, "$add," );
+		}
+		if(isset($_POST['name']))
+		{
+			$nam=$_POST['name'];
+			fwrite($fp, "$nam," );
+		}
+		if(isset($_POST['gender']))
+		{
+			$gen=$_POST['gender'];
+			fwrite($fp, "$gen," );
+		}
+		if(isset($_POST['age']))
+		{
+			$ag=$_POST['age'];
+			fwrite($fp, "$ag," );
+		}
+		
+		fclose($fp);
+	}
+	
+?>
 <form method="POST" style="margin-left:5em;">
 EMAIL:<br>
 <input name="email" /><br><br>
@@ -32,6 +69,8 @@ AGE:<br>
 
 <BR> <input  type="submit" name="submit" value="submit"> <br><br>
 
+
+</form>
 
 
 	</body>
