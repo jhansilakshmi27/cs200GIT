@@ -74,6 +74,14 @@
 		}
 	}
 ?>
+ <footer>
+         <center>
+        <button onclick="document.location='index.html'">Home</button>
+        
+        <button onclick="document.location='connect.php'">Next</button>
+        
+        </center>
+        </footer>  
         
         </body>
         </html>
