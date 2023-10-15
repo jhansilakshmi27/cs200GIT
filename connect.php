@@ -58,5 +58,12 @@
 
 	To view your past queries or responds click on <button onclick="document.location='login.php'">User Profile</button>
 	<br><br> 
+	
+	
+        <hr  width="50%" color="#00674e" >
+       <br><br>      
+       
+       
+
    </body>
 </html>
