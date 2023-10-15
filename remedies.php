@@ -1,6 +1,16 @@
 <html>
 <head>
 <title>remedies</title>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+td{
+  background-color:#fdffcd;
+  height:60;
+  text-align:center;
+}
+</style>
 </head>
 <body>
 <div style="background-color:00674e; height:100; align:top">
