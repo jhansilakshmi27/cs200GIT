@@ -53,6 +53,28 @@ $meds = $otc_medicines[$x];
 $meds_list = explode(",", $meds);
 $food = $food_plans[$x];
 $food_list = explode(",", $food);
+
+for ($i = 0; $i < count($remedies_list) || $i < count($meds_list) || $i < count($food_list); $i++) {
+    echo ;
+    if ($i < count($remedies_list)) {
+        echo .$remedies_list[$i].;
+    } else {
+        echo "<td></td>";
+    }
+    if ($i < count($food_list)) {
+        echo .$food_list[$i].;
+    } else {
+        echo "<td></td>";
+    }
+    if ($i < count($meds_list)) {
+        echo .$meds_list[$i].;
+    } else {
+        echo ;
+    }
+    echo ;
+    }
+
+
 ?>
 
 </table>
