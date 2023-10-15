@@ -76,6 +76,13 @@ for ($i = 0; $i < count($remedies_list) || $i < count($meds_list) || $i < count(
 </table>
 </center>
 <br>
+<footer>
+         <center>
+        <button onclick="document.location='diagnose.php'">Prev</button>
+        <button onclick="document.location='CS100login.php'">User Profile</button>
+        <button onclick="document.location='connect.php'">Next</button>
+        </center>
+        </footer>
 
 </body>
 </html>
