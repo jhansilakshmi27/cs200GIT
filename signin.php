@@ -45,7 +45,13 @@
 			$ag=$_POST['age'];
 			fwrite($fp, "$ag," );
 		}
-		
+		if(isset($_POST['dise']))
+	    	{
+			$diseases = $_POST['dise'];
+			$diseases_str = implode(",", $diseases);
+			fwrite($fp, "$diseases_str\n");
+	  	}
+	
 		fclose($fp);
 	}
 	
@@ -66,7 +72,13 @@ AGE:<br>
 <input type="radio"  name="gender" value="male" /> Male<br>
 <input type="radio"  name="gender" value="female" />Female<br>
 <input type="radio"  name="gender" value="others" checked />Prefer not to say<br><br>
-
+<u>CHRONIC DISEASES:</u><br>
+   <input type="checkbox" name="dise[]" value="Diabetes">Diabetes<br>
+   <input type="checkbox" name="dise[]" value="Cholestrol">Cholestrol<br>
+   <input type="checkbox" name="dise[]" value="Blood pressure">Blood Pressure<br>
+   <input type="checkbox" name="dise[]" value="Thyroid">Thyroid<br>
+   <input type="checkbox" name="dise[]" value="Arthritis">Arthiritis<br>
+   <input type="checkbox" name="dise[]" value="Kidney Problems">Kidney Problems<br>
 <BR> <input  type="submit" name="submit" value="submit"> <br><br>
 
 
