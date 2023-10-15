@@ -57,36 +57,43 @@
 	  	}
 	
 		fclose($fp);
+		
+		header("Location:login.php");
+		
 	}
 	
 ?>
-<form method="POST" style="margin-left:5em;">
-EMAIL:<br>
-<input name="email" /><br><br>
-PASSWORD:<br>
-<input type="password" name="password" /><br><br>
+	<form method="POST" style="margin-left:5em;">
+	EMAIL:<br>
+	<input name="email" /><br><br>
+	PASSWORD:<br>
+	<input type="password" name="password" /><br><br>
 
-NAME:<br>
-<input name="name" /><br><br><BR>
-Since you're a new user we'd like a keep a track of your past medicals records.
-<h3>MEDICAL HISTORY.</h3><br>
-AGE:<br>
-<input type="number" name="age" /><br><br>
-<u>GENDER:</u><br>
-<input type="radio"  name="gender" value="male" /> Male<br>
-<input type="radio"  name="gender" value="female" />Female<br>
-<input type="radio"  name="gender" value="others" checked />Prefer not to say<br><br>
-<u>CHRONIC DISEASES:</u><br>
-   <input type="checkbox" name="dise[]" value="Diabetes">Diabetes<br>
-   <input type="checkbox" name="dise[]" value="Cholestrol">Cholestrol<br>
-   <input type="checkbox" name="dise[]" value="Blood pressure">Blood Pressure<br>
-   <input type="checkbox" name="dise[]" value="Thyroid">Thyroid<br>
-   <input type="checkbox" name="dise[]" value="Arthritis">Arthiritis<br>
-   <input type="checkbox" name="dise[]" value="Kidney Problems">Kidney Problems<br>
-<BR> <input  type="submit" name="submit" value="submit"> <br><br>
+	NAME:<br>
+	<input name="name" /><br><br><BR>
+	Since you're a new user we'd like a keep a track of your past medicals records.
+	<h3>MEDICAL HISTORY.</h3><br>
+	AGE:<br>
+	<input type="number" name="age" /><br><br>
+	<u>GENDER:</u><br>
+	<input type="radio"  name="gender" value="male" /> Male<br>
+	<input type="radio"  name="gender" value="female" />Female<br>
+	<input type="radio"  name="gender" value="others" checked />Prefer not to say<br><br>
+	<u>CHRONIC DISEASES:</u><br>
+	   <input type="checkbox" name="dise[]" value="Diabetes">Diabetes<br>
+	   <input type="checkbox" name="dise[]" value="Cholestrol">Cholestrol<br>
+	   <input type="checkbox" name="dise[]" value="Blood pressure">Blood Pressure<br>
+	   <input type="checkbox" name="dise[]" value="Thyroid">Thyroid<br>
+	   <input type="checkbox" name="dise[]" value="Arthritis">Arthiritis<br>
+	   <input type="checkbox" name="dise[]" value="Kidney Problems">Kidney Problems<br>
+	   <input type="checkbox" name="dise[]" value="Asthma">Asthma<br>
+	   <input type="checkbox" name="dise[]" value="Depression">Depression<br>
+	   <input type="checkbox" name="dise[]" value="Cardiac Arrest">Cardiac Arrest<br>
+	   <input type="checkbox" name="dise[]" value="Allergies">Allergies<br>
+	<BR> <input  type="submit" name="submit" value="submit"> <br><br>
 
 
-</form>
+	</form>
 
 
 	</body>
