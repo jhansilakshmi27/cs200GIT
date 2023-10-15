@@ -85,7 +85,7 @@
 	<li>vaideekaa@iitbhilai.ac.in</li>
 	</ul>
 	
-	<td> <img src="" height="150"/></td>
+	<td> <img src="https://cdn.wallpapersafari.com/12/64/U6fcQw.jpg" height="150"/></td>
 	<td bgcolor="white">
 	<ul>
 	<li>Jhansi Matcha</li>
