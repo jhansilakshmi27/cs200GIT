@@ -12,6 +12,10 @@
         </div>
         <br>
         
+        <h1><center><u>Sign-in</u></center></h1>
+        <img src="https://img.freepik.com/free-vector/login-concept-illustration_114360-739.jpg?w=2000" width="600" alt="quote"  align="right" style="margin-right:5em;"/><br><br>
+        
+
  <?php
 	if(isset($_POST['submit']))
 	{
