@@ -10,7 +10,10 @@
         <h1 style="font-family:ways; text-align:center; color:white; font-size:70; ">Healthify</h1>
         
         </div>
-        
+          
+        <img src ="https://thumbs.dreamstime.com/b/healthy-lifestyle-self-care-concept-healthy-lifestyle-self-care-concept-food-sports-nature-icons-arranged-173734174.jpg"
+    width="500" alt="quote"  align="right" HSPACE="90" />
+        <br><br> 
         <h1 style="margin-left:1em;"> Feel free to provide a feedback or submit any queries. </h1>
   	 <?php
        		if(isset($_POST['submit']))
