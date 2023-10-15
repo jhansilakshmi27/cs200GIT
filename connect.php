@@ -84,10 +84,27 @@
 	<li>Git user : vaideeka-agrawal</li>
 	<li>vaideekaa@iitbhilai.ac.in</li>
 	</ul>
+	
+	<td> <img src="" height="150"/></td>
+	<td bgcolor="white">
+	<ul>
+	<li>Jhansi Matcha</li>
+	<li>ID : 12241000</li>
+	<li>Git user : </li>
+	<li></li>
+	</ul>
 	</tr>
 	</table>
 	     </center>
 	     
+	     
+	<footer>
+        <center>
+        <button onclick="document.location='index.html'">Home</button>
+        <button onclick="document.location='login.php'">User Profile</button>
+        
+        </center>
+        </footer>
 
    </body>
 </html>
