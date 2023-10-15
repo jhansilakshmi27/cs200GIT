@@ -90,6 +90,8 @@
 	   <input type="checkbox" name="dise[]" value="Depression">Depression<br>
 	   <input type="checkbox" name="dise[]" value="Cardiac Arrest">Cardiac Arrest<br>
 	   <input type="checkbox" name="dise[]" value="Allergies">Allergies<br>
+	   <input type="checkbox" name="dise[]" value="PCOD">PCOD<br>
+	   <input type="checkbox" name="dise[]" value="Diarrhea">Diarrhea<br>
 	<BR> <input  type="submit" name="submit" value="submit"> <br><br>
 
 
