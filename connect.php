@@ -62,8 +62,19 @@
 	
         <hr  width="50%" color="#00674e" >
        <br><br>      
-       
-       
+      <center>
+     <table bgcolor="purple" cellspacing="10" >
+     <tr>
+     <td> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4BM_v9BfA_h06yRT5wLSxadNmRxJWXMLRgA&usqp=CAU" height="150"/></td>
+<td bgcolor="white">
+<ul>
+<li>Vaideeka Agrawal</li>
+<li>ID : 12241960</li>
+<li>Git user : vaideeka-agrawal</li>
+<li>vaideekaa@iitbhilai.ac.in</li>
+</ul>
+     </center>
+     </table>
 
    </body>
 </html>
