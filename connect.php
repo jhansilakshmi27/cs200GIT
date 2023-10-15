@@ -90,8 +90,8 @@
 	<ul>
 	<li>Jhansi Matcha</li>
 	<li>ID : 12241000</li>
-	<li>Git user : </li>
-	<li></li>
+	<li>Git user : jhansilakshmi27 </li>
+	<li>matchajh@iitbhilai.ac.in</li>
 	</ul>
 	</tr>
 	</table>
