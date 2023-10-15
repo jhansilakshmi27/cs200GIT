@@ -6,9 +6,9 @@
     </head>
     <body>
     
-    <div style="background-color:dfc5fe; height:100; align:top">
+    <div style="background-color:00674e; height:100; align:top">
         
-        <h1 style="font-family:ways; text-align:center; color:Black; font-size:70; ">HealthyMe</h1>
+        <h1 style="font-family:ways; text-align:center; color:white; font-size:70; ">Healthify</h1>
         
         </div>
         
@@ -20,6 +20,8 @@
 	<b>E-mail : </b><input  name="email"/><br><br>
 <b>Password : </b><input type="password" name="password"/><br><br>
 <input  type="submit" name="submit" value="submit"> <br><br><br>
+
+  <p> If you are a new user, you can <a href="signin.php">Sign in</a>
   
         </body>
         </html>
