@@ -88,6 +88,14 @@
 	</table>
 	     </center>
 	     
-
+<footer>
+         <center>
+        <button onclick="document.location='index.html'">Home</button>
+        <button onclick="document.location='CS100login.php'">User Profile</button>
+        
+        </center>
+        </footer>
+         
+        
    </body>
 </html>
