@@ -98,6 +98,75 @@ footer {
    <input type="checkbox" name="symptoms[]" value="Itching">Itching<br><br>
    <input type="submit" name="Submit" value="Submit"><br><br>
 </form>
+<?php
+if( isset($_POST['Submit'] ) )
+{
+	$diseases = array(
+   "Common cold" => array("Fever", "Headache", "Cough", "Sore throat", "Fatigue", "Body aches/pain"),
+   "Influenza" => array("Fever", "Headache", "Cough", "Fatigue", "Body aches/pain", "Nausea/Vomiting", "Diarrhea"),
+   "Pneumonia" => array("Fever", "Cough", "Chest pain", "Shortness of breath", "Fatigue"),
+   "Allergies" => array("Headache", "Sore throat", "Itching", "Skin rash"),
+   "Anxiety" => array("Dizziness", "Lightheadedness")
+   
+);
+
+$symptoms_a = $_POST['symptoms'];
+$one=1;
+$max=0;
+$matches=0;
+if(count($symptoms_a)==$one)
+{
+	foreach ($diseases as  $disease => $disease_symptoms) 
+{
+	$match=count(array_intersect($symptoms_a,$disease_symptoms));
+   if ( $match == "1" ) 
+   {
+	$final_disease=$disease;
+   	$encoded_disease = urlencode($final_disease);
+	echo "<h2>Possible disease:<a href='remedies.php?disease=$encoded_disease'> " . $disease . "</a></h2>"; 
+   }
+   
+}
+
+}
+else
+{	
+foreach ($diseases as  $disease => $disease_symptoms) 
+{
+	$matches=count(array_intersect($symptoms_a,$disease_symptoms));
+   if ( $matches > $max ) 
+   {
+      $max=$matches;
+   }
+   
+}
+$count_dis=0;
+$target="remedies.php";
+$linkname="link";
+echo nl2br("According to your symptoms :\n");
+while ( $count_dis <= 3)
+{
+foreach ($diseases as  $disease => $disease_symptoms)
+{
+	if( count(array_intersect($symptoms_a,$disease_symptoms)) == $max )
+	{	
+		if($count_dis <= 3)
+		{
+			$final_disease=$disease;
+			$encoded_disease = urlencode($final_disease);
+			echo nl2br("<h3>Possible illness:<a href='remedies.php?disease=$encoded_disease' target='_blank'> " . $disease . "\n</a></h3>");
+			$count_dis = $count_dis + 1;
+		}
+    	}
+}
+$max=$max-1;
+}
+}
+
+}
+?>
+</article>
+</section>
         
         
 <footer>
