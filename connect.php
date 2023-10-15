@@ -63,7 +63,23 @@
         <hr  width="50%" color="#00674e" >
        <br><br>      
        
-       
+
+	<table cellspacing="10" bgcolor=" #00674e " width="870" height ="150" >
+	<tr >
+	<td> <img src="https://i.pinimg.com/564x/9f/b4/e6/9fb4e6df0dffbd1af9b4a91082230e23.jpg" height="150"/></td>
+	<td bgcolor="white">
+	<ul>
+	<li>Shivangi Gaur</li>
+	<li>ID : 12241720</li>
+	<li>Git user: shivangigaur15</li>
+	<li>shivangig@iitbhilai.ac.in</li>
+	</ul>
+	</td>
+	       
+	      </tr> 
+	  </table>     
+	       <br><br>
+	
 
    </body>
 </html>
