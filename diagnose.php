@@ -162,6 +162,7 @@ foreach ($diseases as  $disease => $disease_symptoms)
 $max=$max-1;
 }
 }
+echo nl2br("\nClick on the <i>illness</i> to know more about the remedies, food plans or OTC medicines you can take.");
 
 }
 ?>
