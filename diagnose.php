@@ -17,7 +17,7 @@ body {
 }
 
 header {
-  background-color:  purple ;
+  background-color:  #DAF7A6 ;
   padding: 30px;
   text-align: center;
   font-size: 35px;
@@ -28,7 +28,7 @@ nav {
   float: left;
   width: 30%;
   height: 760px; 
-  background:  pink   ;
+  background:  #FFC300   ;
   padding: 20px;
 }
 
@@ -49,7 +49,7 @@ section::after {
 }
 
 footer {
-  background-color: purple ;
+  background-color: 00674e ;
   padding: 10px;
   text-align: center;
   color: white;
