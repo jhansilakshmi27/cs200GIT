@@ -81,6 +81,23 @@ footer {
    <h1>Identify </h1>
    <p>Select the options that match your symptoms :</p>
 
+<form method="post">
+   <input type="checkbox" name="symptoms[]" value="Fever">Fever<br>
+   <input type="checkbox" name="symptoms[]" value="Headache">Headache<br>
+   <input type="checkbox" name="symptoms[]" value="Cough">Cough<br>
+   <input type="checkbox" name="symptoms[]" value="Sore throat">Sore throat<br>
+   <input type="checkbox" name="symptoms[]" value="Fatigue">Fatigue<br>
+   <input type="checkbox" name="symptoms[]" value="Body aches/pain">Body aches/pain<br>
+   <input type="checkbox" name="symptoms[]" value="Chest pain">Chest pain<br>
+   <input type="checkbox" name="symptoms[]" value="Shortness of breath">Shortness of breath<br>
+   <input type="checkbox" name="symptoms[]" value="Nausea/Vomiting">Nausea/Vomiting<br>
+   <input type="checkbox" name="symptoms[]" value="Diarrhea">Diarrhea<br>
+   <input type="checkbox" name="symptoms[]" value="Dizziness">Dizziness<br>
+   <input type="checkbox" name="symptoms[]" value="Lightheadedness">Lightheadedness<br>
+   <input type="checkbox" name="symptoms[]" value="Skin rash">Skin rash<br>
+   <input type="checkbox" name="symptoms[]" value="Itching">Itching<br><br>
+   <input type="submit" name="Submit" value="Submit"><br><br>
+</form>
         
         
 <footer>
