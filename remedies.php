@@ -47,7 +47,12 @@ $otc_medicines = array(
    "Allergies" => "Antihistamines, Decongestants, Nasal corticosteroids, Allergy shots",
    "Anxiety" => "Antidepressants, Anti-anxiety medication"
 );
-
+$remedies = $home_remedies[$x];
+$remedies_list = explode(",", $remedies);
+$meds = $otc_medicines[$x];
+$meds_list = explode(",", $meds);
+$food = $food_plans[$x];
+$food_list = explode(",", $food);
 ?>
 
 </table>
