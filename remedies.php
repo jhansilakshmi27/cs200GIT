@@ -23,6 +23,33 @@ td{
 <tr bgcolor="#ffd13d"><th colspan="3"><h1><u>Remedies for <?php echo $_GET['disease']; ?>:</u></h1></th></tr>
 <tr bgcolor="#f1ffa2"><th><strong><h3>Home Remedies:</h3></strong></th><th><strong><h3>Dietary Advice:</h3></strong></th><th><strong><h3>OTC Medicines:</h3></strong></th></tr>
 
+
+<?php
+$x=urldecode($_GET['disease']);
+$home_remedies = array(
+   "Common cold" => "Drink warm fluids, Use a humidifier, Gargle with saltwater, Use Throat lozenge to soothe soar throat",
+   "Pneumonia" => "Get plenty of rest, Use a humidifier, Take over-the-counter pain relievers, Seek professional help to avoid worsening of condition",
+   "Influenza" => "Get plenty of rest, Take over-the-counter pain relievers, Use a humidifier, Use Throat lozenge to soothe soar throat",
+   "Allergies" => "Avoid allergens, Use over-the-counter antihistamines, Use nasal irrigation, Use essential oils",
+   "Anxiety" => "Practice relaxation techniques, Exercise regularly, Get enough sleep, Limit Caffeine intake"
+);
+$food_plans = array(
+   "Common cold" => "Drink warm fluids, Eat foods high in vitamin C and zinc, Avoid dairy products, Use ginger paste or Honey for throat relief.",
+   "Pneumonia" => "Drink fluids, Eat foods high in vitamin C and zinc, Avoid dairy products, Use ginger paste or Honey for throat relief",
+   "Influenza" => "Drink fluids, Eat foods high in vitamin C and zinc, Avoid dairy products, Use ginger paste or Honey for throat relief",
+   "Allergies" => "Eat foods high in vitamin C and omega-3 fatty acids, Drink Green tea in the morning, Avoid processed foods and sugar, Use ginger paste or Honey in throat",
+   "Anxiety" => "Eat foods rich in omega-3 fatty acids, Complex carbohydrates, Magnesium, Dark chocolate may help ease anxiety"
+);
+$otc_medicines = array(
+   "Common cold" => "Acetaminophen, Ibuprofen, Decongestants, Cough suppressants",
+   "Pneumonia" => "Antibiotics, Acetaminophen, Ibuprofen, Decongestants",
+   "Influenza" => "Acetaminophen, Ibuprofen, Decongestants, Antiviral medication",
+   "Allergies" => "Antihistamines, Decongestants, Nasal corticosteroids, Allergy shots",
+   "Anxiety" => "Antidepressants, Anti-anxiety medication"
+);
+
+?>
+
 </table>
 </center>
 <br>
