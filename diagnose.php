@@ -69,7 +69,17 @@ footer {
         
         
         
+        <footer>
+  <p>This information has not been medically certified yet.</p>
+  
+</footer>
+        
+        
+        <br><br>
+   
+         
 
+        
 
 </body>
 </html>
