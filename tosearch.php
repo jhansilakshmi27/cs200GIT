@@ -58,7 +58,7 @@
 	else 
 	{
 		echo "<b>No results found.</b>";
-		header("Location: login.php");
+		header("Location: index.html");
 	}
 	
 	$queryinfo = file_get_contents("userinfo.txt");
