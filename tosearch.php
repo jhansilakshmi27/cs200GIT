@@ -18,6 +18,7 @@
 	$userinfo = file_get_contents("logininfo.txt");
 	$users = explode("\n", $userinfo);
 	$results = array();
+	$diseases = array();
 	foreach($users as $user)
 	{
 		$fields = explode(",", $user);
@@ -30,7 +31,10 @@
 				$user_name=$fields[2];
 				$gender=$fields[3];
 				$age=$fields[4];
-				
+				for($i=5; $i < count($fields); $i++)
+				{
+					$diseases[] = $fields[$i];
+				}
 				break;
 			} 
 	}   
