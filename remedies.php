@@ -59,12 +59,12 @@ for ($i = 0; $i < count($remedies_list) || $i < count($meds_list) || $i < count(
     if ($i < count($remedies_list)) {
         echo .$remedies_list[$i].;
     } else {
-        echo "<td></td>";
+        echo;
     }
     if ($i < count($food_list)) {
         echo .$food_list[$i].;
     } else {
-        echo "<td></td>";
+        echo;
     }
     if ($i < count($meds_list)) {
         echo .$meds_list[$i].;
