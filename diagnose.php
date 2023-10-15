@@ -67,7 +67,20 @@ footer {
   	<h2>Diagnose</h2>
 	</header>
         
-        
+        <section>
+  <nav>
+  
+  
+    <center>
+    <img src ="https://media.istockphoto.com/id/537254156/vector/medical-diagnosis-flat-illustration-diagnosis-clinical-record-flat-vector-illustration.jpg?s=170667a&w=0&k=20&c=gDurh38YMUd5AJuaF8iULgJGtM5sbRqgWph2oQE38P8="
+    width="95%" alt="img"  align="center"  />
+    </center>
+  </nav>
+  
+  <article>
+   <h1>Identify </h1>
+   <p>Select the options that match your symptoms :</p>
+
         
         
 <footer>
