@@ -47,20 +47,35 @@ $otc_medicines = array(
    "Allergies" => "Antihistamines, Decongestants, Nasal corticosteroids, Allergy shots",
    "Anxiety" => "Antidepressants, Anti-anxiety medication"
 );
-
+$remedies = $home_remedies[$x];
+$remedies_list = explode(",", $remedies);
+$meds = $otc_medicines[$x];
+$meds_list = explode(",", $meds);
+$food = $food_plans[$x];
+$food_list = explode(",", $food);
+for ($i = 0; $i < count($remedies_list) || $i < count($meds_list) || $i < count($food_list); $i++) {
+    echo "<tr>";
+    if ($i < count($remedies_list)) {
+        echo "<td >".$remedies_list[$i]."</td>";
+    } else {
+        echo "<td></td>";
+    }
+    if ($i < count($food_list)) {
+        echo "<td>".$food_list[$i]."</td>";
+    } else {
+        echo "<td></td>";
+    }
+    if ($i < count($meds_list)) {
+        echo "<td>".$meds_list[$i]."</td>";
+    } else {
+        echo "<td></td>";
+    }
+    echo "</tr>";
+    }
 ?>
-
 </table>
 </center>
 <br>
-
-
-
-
-
-
-
-
 
 </body>
 </html>
