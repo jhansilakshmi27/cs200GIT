@@ -175,7 +175,9 @@ echo nl2br("\nClick on the <i>illness</i> to know more about the remedies, food 
   
 </footer>
         
-
+  
+        <br><br>
+   
         
 
 </body>
