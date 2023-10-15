@@ -31,7 +31,7 @@ $home_remedies = array(
    "Pneumonia" => "Get plenty of rest, Use a humidifier, Take over-the-counter pain relievers, Seek professional help to avoid worsening of condition",
    "Influenza" => "Get plenty of rest, Take over-the-counter pain relievers, Use a humidifier, Use Throat lozenge to soothe soar throat",
    "Allergies" => "Avoid allergens, Use over-the-counter antihistamines, Use nasal irrigation, Use essential oils",
-   "Anxiety" => "Practice relaxation techniques, Exercise regularly, Get enough sleep, Limit Caffeine intake"
+   "Anxiety" => "Practice relaxation techniques, Exercise regularly, Get enough sleep, Limit Caffeine intake, Breathing exercises"
 );
 $food_plans = array(
    "Common cold" => "Drink warm fluids, Eat foods high in vitamin C and zinc, Avoid dairy products, Use ginger paste or Honey for throat relief.",
