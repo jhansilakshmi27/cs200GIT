@@ -53,9 +53,9 @@
 	    	{
 			$diseases = $_POST['dise'];
 			$diseases_str = implode(",", $diseases);
-			fwrite($fp, "$diseases_str\n");
+			fwrite($fp, "$diseases_str");
 	  	}
-	
+		fwrite($fp, "\n");
 		fclose($fp);
 		
 		header("Location:login.php");
